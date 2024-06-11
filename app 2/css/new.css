@@ -1,0 +1,132 @@
+.pink{
+  color: #F5A8BC;
+}
+.white{
+  color: #FFF;
+}
+.lightpurple{
+  color: #6A5ACD;
+}
+.rouge-pink{
+    color: #F5A8A8;
+  }
+.light-pink{
+  color: #FF1493;
+}
+.dark-blue{
+    color: #354f66!important;
+  }
+.light-purple{
+    color: #8D91C7;
+  }
+.light-blue-purple{
+    color: #A7ACF6;
+  }
+.dark-purple{
+    color: #1e152a!important;
+  }
+.dim-gray{
+    color: #696969;
+  }
+.light-blue-gray{
+    color: #778899;
+  }
+.hover-black:hover{
+    color: #000!important;
+  }
+.lavender-purple{
+    color: #FFF0F5;
+  }
+  
+.mainfont {
+  font-family: "Reggae One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.secondaryfont {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wraper{
+  
+  background:rbga(0,0,0,0.4);
+}
+.center{
+  text-align: center;
+}
+.sign{
+  --ionicon-stroke-width: 50px;
+  text-align: right;
+}
+.vcenter{
+ vertical-align: middle;
+}
+.love{
+  background: url("../images/upcoming-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--section-padding);
+}
+
+.hero {
+  background: url("https://cdn.glitch.global/3a031cf8-fec2-4247-ad3e-ed0cc686f2d9/topgun.jpg?v=1717922161073");
+  background-size:cover ;
+}
+.footer-brand-wrapper {
+  display:none;
+}
+
+.card {
+  width:100%;
+  aspect-ratio: 2 / 3;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  color: #F5A8A8;
+  
+}
+.card img {
+aspect-ratio: 2 / 3;
+margin-bottom:10px;
+width: 330px;}
+
+.card-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: #171c22;
+  background: #171c22;
+  display:flex;
+}
+
+.card-face p {
+  margin:auto;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.front {
+  color: #171c22;
+}
+
+.back {
+  background: #171c22;
+  padding:20px;
+  border-radius: 6px;
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card + .title-wrapper {
+  margin-top:10px;
+}
+
+.logo {width:200px;}
